@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pult</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: sans-serif;
+    }
+    .remote {
+      width: 220px;
+      background: #1a1a1a;
+      border-radius: 32px;
+      padding: 28px 20px 32px;
+      border: 2px solid #333;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .power-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #e74c3c;
+      margin: 0 auto 4px;
+    }
+    .main-row {
+      display: grid;
+      grid-template-columns: 1fr 40px 1fr;
+      gap: 10px;
+      align-items: center;
+    }
+    .left-col, .right-col {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .num-btn {
+      width: 100%;
+      height: 44px;
+      border-radius: 10px;
+      background: #2e2e2e;
+      border: 1px solid #444;
+      color: #e0e0e0;
+      font-size: 18px;
+      font-weight: 500;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.1s;
+      user-select: none;
+    }
+    .num-btn:active {
+      background: #3a3a3a;
+      transform: scale(0.96);
+    }
+    .center-col {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .off-btn {
+      width: 36px;
+      height: 152px;
+      border-radius: 18px;
+      background: #c0392b;
+      border: none;
+      color: #fff;
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      letter-spacing: 2px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      transition: background 0.1s;
+    }
+    .off-btn:active {
+      background: #a93226;
+      transform: scale(0.97);
+    }
+  </style>
+</head>
+<body>
+  <div class="remote">
+    <div class="power-dot"></div>
+    <div class="main-row">
+      <div class="left-col">
+        <button class="num-btn">1</button>
+        <button class="num-btn">2</button>
+        <button class="num-btn">3</button>
+      </div>
+      <div class="center-col">
+        <button class="off-btn" onclick="window.close()">OFF</button>
+      </div>
+      <div class="right-col">
+        <button class="num-btn">4</button>
+        <button class="num-btn">5</button>
+        <button class="num-btn">6</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
