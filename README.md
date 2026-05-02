@@ -1,4 +1,4 @@
-  <h1 align="center">
+<h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=600&lines=Hi%2C+I'm+Asadbek+Barliqbaev+%F0%9F%91%8B;Backend+%26+DevOps+Engineer;Python+%7C+Docker+%7C+Kubernetes" alt="Typing SVG" />
 </h1>
 
@@ -34,7 +34,7 @@
 ---
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=kensi_solo&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=a-qalmuratov&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a-qalmuratov&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" />
 </div>
 
